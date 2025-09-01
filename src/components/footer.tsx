@@ -18,9 +18,9 @@ const footerLinks = {
     { label: 'Contato', href: '#contact' }
   ],
   contact: [
-    { icon: Mail, label: 'contato@mcrtech.com', href: 'mailto:contato@mcrtech.com' },
-    { icon: Phone, label: '+55 (11) 99999-9999', href: 'tel:+5511999999999' },
-    { icon: MapPin, label: 'São Paulo, Brasil', href: '#' }
+    { icon: Mail, label: 'mcrtechsolutions@gmail.com', href: 'mailto:mcrtechsolutions@gmail.com' },
+    { icon: Phone, label: '+55 (77) 99213-0158', href: 'tel:+5577992130158' },
+    { icon: MapPin, label: 'Cuiabá, Brasil', href: '#' }
   ]
 }
 

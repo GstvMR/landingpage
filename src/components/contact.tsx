@@ -11,27 +11,27 @@ const contactMethods = [
     icon: Mail,
     title: 'Email',
     description: 'Resposta em até 2 horas',
-    contact: 'contato@mcrtech.com',
-    action: 'mailto:contato@mcrtech.com'
+    contact: 'mcrtechsolutions@gmail.com',
+    action: 'mailto:mcrtechsolutions@gmail.com'
   },
   {
     icon: MessageSquare,
     title: 'WhatsApp',
     description: 'Chat direto e rápido',
-    contact: '+55 (11) 99999-9999',
-    action: 'https://wa.me/5511999999999'
+    contact: '+55 (77) 99213-0158',
+    action: 'https://wa.me/5577992130158'
   },
   {
     icon: Phone,
     title: 'Telefone',
     description: 'Seg-Sex, 9h às 18h',
-    contact: '+55 (11) 3333-3333',
-    action: 'tel:+551133333333'
+    contact: '+55 (77) 99213-0158',
+    action: 'tel:+5577992130158'
   },
   {
     icon: MapPin,
     title: 'Localização',
-    description: 'São Paulo, Brasil',
+    description: 'Cuiabá, Brasil',
     contact: 'Atendimento nacional',
     action: '#'
   }
@@ -184,7 +184,7 @@ export function Contact() {
               a transformar sua ideia em uma loja de sucesso.
             </p>
             <Button size="lg" asChild>
-              <a href="mailto:contato@mcrtech.com">
+              <a href="mailto:mcrtechsolutions@gmail.com">
                 Agendar Consulta Gratuita
               </a>
             </Button>
