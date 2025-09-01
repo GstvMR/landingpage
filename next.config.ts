@@ -6,11 +6,17 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
   },
   
-  // Image optimization
+  // Netlify compatibilidade
+  trailingSlash: false,
+  output: 'standalone',
+  
+  // Image optimization para Netlify
   images: {
     formats: ['image/webp', 'image/avif'],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    // Netlify image optimization
+    unoptimized: process.env.NODE_ENV === 'production',
   },
 
   // Compression
@@ -37,6 +43,17 @@ const nextConfig: NextConfig = {
         ],
       },
     ];
+  },
+  
+  // Webpack config para Netlify
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+      };
+    }
+    return config;
   },
 };
 

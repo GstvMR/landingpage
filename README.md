@@ -123,7 +123,28 @@ As animações Framer Motion podem ser ajustadas nos componentes individuais.
 
 ## 🚀 Deploy
 
-### Vercel (Recomendado)
+### Netlify (Configurado)
+Este projeto está otimizado para deploy no Netlify:
+
+1. **Deploy Automático via Git:**
+   - Conecte seu repositório GitHub ao Netlify
+   - Configurações detectadas automaticamente via `netlify.toml`
+   - Deploy automático a cada push
+
+2. **Deploy Manual:**
+   ```bash
+   npm run build
+   npx netlify deploy --prod --dir=.next
+   ```
+
+3. **Configurações incluídas:**
+   - ✅ Plugin oficial Next.js para Netlify
+   - ✅ Headers de segurança
+   - ✅ Cache otimizado para assets
+   - ✅ Redirects configurados
+   - ✅ Build automático
+
+### Vercel (Alternativa)
 1. Conecte seu repositório ao Vercel
 2. Deploy automático com cada push
 

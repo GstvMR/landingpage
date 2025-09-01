@@ -1,0 +1,44 @@
+[build]
+  # Comando de build
+  command = "npm run build"
+  
+  # Diretório de publicação (Netlify detecta automaticamente com o plugin)
+  publish = "out"
+
+[build.environment]
+  # Versão do Node.js
+  NODE_VERSION = "18"
+  
+  # Otimizações do Next.js
+  NEXT_TELEMETRY_DISABLED = "1"
+
+# Configurações para Next.js App Router
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Headers de segurança
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-XSS-Protection = "1; mode=block"
+
+# Configurações de redirecionamento para Next.js
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Cache para assets estáticos
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache para imagens
+[[headers]]
+  for = "/*.{jpg,jpeg,png,gif,ico,svg,webp,avif}"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
