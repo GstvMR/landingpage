@@ -1,4 +1,4 @@
-# EcomDev Pro - Landing Page
+# MCR Tech Solutions - Landing Page
 
 Uma landing page moderna, rápida e responsiva para empresa de desenvolvimento de e-commerce especializada em Shopify e WooCommerce.
 
@@ -135,7 +135,7 @@ npm run start
 
 ## 📝 Licença
 
-Este projeto é privado e propriedade da EcomDev Pro.
+Este projeto é privado e propriedade da MCR Tech Solutions.
 
 ## 📞 Suporte
 

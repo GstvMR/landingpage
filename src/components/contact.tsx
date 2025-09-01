@@ -11,8 +11,8 @@ const contactMethods = [
     icon: Mail,
     title: 'Email',
     description: 'Resposta em até 2 horas',
-    contact: 'contato@ecomdevpro.com',
-    action: 'mailto:contato@ecomdevpro.com'
+    contact: 'contato@mcrtech.com',
+    action: 'mailto:contato@mcrtech.com'
   },
   {
     icon: MessageSquare,
@@ -184,7 +184,7 @@ export function Contact() {
               a transformar sua ideia em uma loja de sucesso.
             </p>
             <Button size="lg" asChild>
-              <a href="mailto:contato@ecomdevpro.com">
+              <a href="mailto:contato@mcrtech.com">
                 Agendar Consulta Gratuita
               </a>
             </Button>

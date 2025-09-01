@@ -18,7 +18,7 @@ const footerLinks = {
     { label: 'Contato', href: '#contact' }
   ],
   contact: [
-    { icon: Mail, label: 'contato@ecomdevpro.com', href: 'mailto:contato@ecomdevpro.com' },
+    { icon: Mail, label: 'contato@mcrtech.com', href: 'mailto:contato@mcrtech.com' },
     { icon: Phone, label: '+55 (11) 99999-9999', href: 'tel:+5511999999999' },
     { icon: MapPin, label: 'São Paulo, Brasil', href: '#' }
   ]
@@ -44,7 +44,7 @@ export function Footer() {
                   <ShoppingBag className="h-6 w-6" />
                 </div>
                 <span className="text-xl font-bold text-foreground">
-                  EcomDev Pro
+                  MCR Tech Solutions
                 </span>
               </Link>
               <p className="text-muted-foreground leading-relaxed mb-6">
@@ -132,7 +132,7 @@ export function Footer() {
         >
           <div className="flex flex-col sm:flex-row justify-between items-center text-sm text-muted-foreground">
             <div className="flex items-center mb-4 sm:mb-0">
-              <span>© 2024 EcomDev Pro. Todos os direitos reservados.</span>
+              <span>© 2024 MCR Tech Solutions. Todos os direitos reservados.</span>
             </div>
             <div className="flex items-center">
               <span>Feito com</span>

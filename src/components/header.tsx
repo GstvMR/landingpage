@@ -49,7 +49,7 @@ export function Header() {
               <ShoppingBag className="h-6 w-6" />
             </motion.div>
             <span className="text-xl font-bold text-foreground">
-              EcomDev Pro
+              MCR Tech Solutions
             </span>
           </Link>
 

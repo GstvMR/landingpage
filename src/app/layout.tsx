@@ -9,10 +9,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "EcomDev Pro - Especialistas em Shopify & WooCommerce",
+  title: "MCR Tech Solutions - Especialistas em Shopify & WooCommerce",
   description: "Desenvolvimento profissional de e-commerce com Shopify e WooCommerce. Criamos lojas online modernas, rápidas e otimizadas para conversão.",
   keywords: "e-commerce, shopify, woocommerce, desenvolvimento, loja online",
-  authors: [{ name: "EcomDev Pro" }],
+  authors: [{ name: "MCR Tech Solutions" }],
 };
 
 export const viewport = {
